@@ -1,1 +1,1 @@
-from .messproc import process_message
+from .messproc import encrypt_message, decrypt_message
