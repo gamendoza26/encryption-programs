@@ -1,3 +1,5 @@
+# ENCRYPTION BELOW
+
 def build_IP_array(bit_string):    
     IP_array = []
     

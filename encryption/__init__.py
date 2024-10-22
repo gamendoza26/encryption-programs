@@ -1,0 +1,1 @@
+from .encr import encrypt

@@ -44,10 +44,10 @@ def run_through_IP_algorithm(IP_array):
 
 
 def generate_key(key):
-    hash_hex = hash_generation(key)
+    hash_hex = hash_generation(key) # Generates 256 bit hash string
 
-    IP_array = build_IP_array(hash_hex)
+    IP_array = build_IP_array(hash_hex) # Creates 4 mixed sections of bits (from hash string)
 
-    final_array = run_through_IP_algorithm(IP_array)
+    final_array = run_through_IP_algorithm(IP_array) # Uses personal IPs to rearrange the bits in a specific form, broken into 32 bit sections (8 total)
 
     return final_array
