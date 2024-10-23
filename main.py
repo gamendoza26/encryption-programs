@@ -68,6 +68,8 @@ def main():
     # Encrypt the message using the user's key
     final_encryption = encrypt(generated_key, encrypted_bits)
     print(f"Generated final encryption: {final_encryption}\n")
+    print(f"Generated final encryption in ASCII chars: {to_chars(final_encryption)}\n")
+
 
     # Ask if the user wants to decrypt the message
     decrypt_choice = input("Do you want to decrypt the message? (yes/no): ").strip().lower()

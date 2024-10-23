@@ -42,6 +42,6 @@ def generate_key(key, IPs):
 
     IP_array = build_IP_array(hash_hex) # Creates 4 mixed sections of bits (from hash string)
 
-    final_array = run_through_IP_algorithm(IP_array, IPs) # Uses personal IPs to rearrange the bits in a specific form, broken into 32 bit sections (8 total)
-
+    # Uses personal IPs to rearrange the bits in a specific form, broken into 32 bit sections (8 total)
+    final_array = run_through_IP_algorithm(IP_array, IPs) 
     return final_array

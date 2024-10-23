@@ -79,3 +79,4 @@ def decrypt_message(bit_array, IPs):
 
     # Join the characters to form the final string
     return ''.join(characters)
+    
